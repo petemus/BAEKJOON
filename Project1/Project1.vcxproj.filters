@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\BruteForce">
+      <UniqueIdentifier>{1e20b853-6517-478d-ba5c-28e67136bf62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sort">
+      <UniqueIdentifier>{cf816492-9321-415f-937e-310eb4115d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SetAndMap">
+      <UniqueIdentifier>{e260a380-97ae-4ff7-9ef3-f1abf6095064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DivMultiPrime">
+      <UniqueIdentifier>{a6660f30-b5fc-4145-8183-a76c29a27147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\LinkedList">
+      <UniqueIdentifier>{297e39ad-de11-4d35-af22-c856e1e9a483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{d5572d1f-9c58-46ad-9247-f5b0730eb92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{212c84c4-c4c6-470d-a5fb-1e9c63158819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Deque">
+      <UniqueIdentifier>{195c0d5d-a529-437e-8f45-b092cab92cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\StackPlus">
+      <UniqueIdentifier>{b411bd3a-d622-4d50-9a14-3d8f2880d3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{f93cce96-b80c-42e7-869d-3f32b2401c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Recursion">
+      <UniqueIdentifier>{ccee3023-135d-455e-a839-752ee6675378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Backtracking">
+      <UniqueIdentifier>{452ab216-eacf-433f-b72b-2fe90698a5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Simulation">
+      <UniqueIdentifier>{bb9551ab-29b3-4e73-871f-37fe069d60d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sort2">
+      <UniqueIdentifier>{2bd6fc47-1ce8-4e66-92b2-81bc3074ad50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{68e61b0f-542a-42d1-b054-be2625f53b8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BruteForce_1.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_2.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_3.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_4.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_5.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_6.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_4.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_6.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_7_failed.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_7.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_8.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_9.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_10.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_11.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_4_.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_1.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_2.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_3.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_4.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_5.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_6.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_7.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAndMap_8.cpp">
+      <Filter>소스 파일\SetAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_1.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_2.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_3.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_4.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_5.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_6.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_7.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_8.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="DivMultiPrime_9.cpp">
+      <Filter>소스 파일\DivMultiPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList_1.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinekedList.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList_3.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularLinkedList.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList_2.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_2.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_1.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_3.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_4.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_4_arr.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue_1.cpp">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue_3.cpp">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque_1.cpp">
+      <Filter>소스 파일\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque_2.cpp">
+      <Filter>소스 파일\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque_3.cpp">
+      <Filter>소스 파일\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="StackPlus_1.cpp">
+      <Filter>소스 파일\StackPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="StackPlus_2.cpp">
+      <Filter>소스 파일\StackPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="StackPlus_3.cpp">
+      <Filter>소스 파일\StackPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="StackPlus_4.cpp">
+      <Filter>소스 파일\StackPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="StackPlus_5.cpp">
+      <Filter>소스 파일\StackPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_1.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_2.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_3.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_4.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_5.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_6.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_7.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_8.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_9.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_10.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_12.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_11.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_13.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_14.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_15.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_16.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_17.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_18.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_1.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_2.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_3.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_4.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_5.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_6.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_7.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_8.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_9.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_1.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_2.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_7.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_8.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_9.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_10.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_11.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_12.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_13.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_14.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_15.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_16.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_17.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_18.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_3.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_4.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_5.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_6.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_1.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_1.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_2.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_3.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_2.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_4.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_5.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_4.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_6.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_7.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_8.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_9.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_10.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_11.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_12.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_13.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2_14.cpp">
+      <Filter>소스 파일\Sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_5.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_6.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_3.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_7.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_8.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_1.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
