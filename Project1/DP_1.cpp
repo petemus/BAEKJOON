@@ -3,6 +3,8 @@
 // 6으로 나누어 떨어지는 부분이 겹침 -> DP
 
 // 최적 부분 구조?(Optimal Substructure)
+// : 작은 부분 문제들의 최적값이 전체의 최적값과 연결이 되는지
+
 
 #include <iostream>
 using namespace std;
