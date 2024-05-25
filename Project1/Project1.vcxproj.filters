@@ -58,6 +58,12 @@
     <Filter Include="소스 파일\DP">
       <UniqueIdentifier>{68e61b0f-542a-42d1-b054-be2625f53b8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Dijkstra">
+      <UniqueIdentifier>{14023c6b-4591-4be4-9611-094f0e53fbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Greedy">
+      <UniqueIdentifier>{ffe57b48-91ad-4e24-b007-2ab5fa7984e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -431,6 +437,33 @@
     </ClCompile>
     <ClCompile Include="DP_14501.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion_18511.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_1753.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy_1931.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtraking_10974.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_1107.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_1987.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_2580.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_14888.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_15683.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
