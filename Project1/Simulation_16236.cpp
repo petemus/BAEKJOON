@@ -111,7 +111,7 @@ int FindFish()
 	{
 		// ¸Ô±â
 		eatFish++;
-		// Å©±â ¾÷
+		// Å©±â ¾÷µ« 
 		if (eatFish == sharkSize)
 		{
 			++sharkSize;
