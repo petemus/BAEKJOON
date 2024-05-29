@@ -1,7 +1,7 @@
 // Simulation > 아기 상어 (16236번)
 // 풀이 시간 : 2h
 // BFS 사용하여 최단 거리 이동하면서 푸는 구현 문제
-// (-) 거리가 가까운 물고기가 여러마리일때 우선순위 물고기를 찾아줘야 함
+// !! 거리가 가까운 물고기가 여러마리일때 우선순위 물고기를 찾아줘야 함
 
 #include <iostream>
 #include <queue>
@@ -24,8 +24,6 @@ int space[20][20];
 int sharkSize = 2;
 int eatFish = 0;
 Position sharkPos;
-
-int fishNum[7] = { 0, };		// 물고기 크기에 따른 개수
 
 // 상, 좌, 우, 하
 int dirX[] = {0, -1, 1, 0};
@@ -142,11 +140,7 @@ int main()
 	{
 		for (int j = 0; j < n; j++)
 		{
-			int tmp;
-			cin >> tmp;
-			space[i][j] = tmp;
-			// fish 개수 증가
-			if(tmp > 0 && tmp < 7)	fishNum[tmp]++;
+			cin >> space[i][j];
 
 			if (space[i][j] == 9) sharkPos = Position(i, j);
 		}
