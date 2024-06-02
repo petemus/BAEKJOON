@@ -489,5 +489,8 @@
     <ClCompile Include="Gridy_2457.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Simulation_1475.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
