@@ -1,7 +1,7 @@
 // Gridy > 공주님의 정원 (2457번)
 // 풀이 시간 : 1 h ?
 // 꽃의 지고 피는 조건 잘 봐야하고, 두 조건 모두 불가일떄 0 출력
-// ! startDate도 정렬해야하네
+// ! 시작 날짜, 종료 날짜 모두 정렬 필요
 
 #include <iostream>
 #include <vector>
@@ -115,12 +115,6 @@ int main()
 				break;
 			}
 			else continue;
-		}
-
-		if (!isFind)
-		{
-			flowerCnt = 0;
-			break;
 		}
 
 		if (!isFind)

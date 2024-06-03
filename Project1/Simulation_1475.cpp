@@ -21,6 +21,7 @@ int main()
 
 	cin >> s;
 
+	// 값 넣어주면서 max 값 수정할 수 있음
 	for (int i = 0; i < s.size(); i++)
 	{
 		// 문자 숫자 바꿔주기
@@ -29,9 +30,7 @@ int main()
 	}
 
 	// 6이나 9 최소화
-	int result = number[6] + number[9];
-	if (result % 2 == 1) result = result / 2 + 1;
-	else result /= 2;
+	int result = (number[6] + number[9] + 1) /2;
 	number[6] = result; number[9] = result;
 
 	int max = 0;
@@ -40,10 +39,5 @@ int main()
 		if (max < number[i]) max = number[i];
 	}
 
-
 	cout << max;
-
-
-
-
 }
