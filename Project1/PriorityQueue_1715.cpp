@@ -15,8 +15,7 @@ int main()
 	int n;
 	cin >> n;
 
-	// 중단점 걸어두고 pq 내부를 확인해보면 정렬되어 있지 않을 때가 있음을 확인할 수 있음 
-	// why...
+	// 중단점 걸어두고 pq 내부를 확인해보면 정렬되어 있지 않을 때가 있음을 확인할 수 있음 -> wht?
 	priority_queue<int, vector<int>, greater<int>> pq;
 	for (int i = 0; i < n; i++)
 	{

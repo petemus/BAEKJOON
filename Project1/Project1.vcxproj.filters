@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\Greedy">
       <UniqueIdentifier>{ffe57b48-91ad-4e24-b007-2ab5fa7984e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\PriorityQueue">
+      <UniqueIdentifier>{42c52074-475c-4464-acbd-c931c5b6734b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -492,10 +495,13 @@
     <ClCompile Include="Simulation_1475.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
-    <ClCompile Include="PriorityQueue_11286.cpp">
+    <ClCompile Include="PriorityQueue_1715.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PriorityQueue_1715.cpp">
+    <ClCompile Include="PriorityQueue_11286.cpp">
+      <Filter>소스 파일\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue_15903.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
