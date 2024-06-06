@@ -502,6 +502,9 @@
       <Filter>소스 파일\PriorityQueue</Filter>
     </ClCompile>
     <ClCompile Include="PriorityQueue_15903.cpp">
+      <Filter>소스 파일\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_14503.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
