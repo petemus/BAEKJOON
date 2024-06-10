@@ -14,8 +14,6 @@ int dirY[] = { -1, 0, 1, 0 };
 // r, c의 네 방향 중에 더러운 곳이 있는지(청소할 수 있는지) 확인
 bool isDirty(int r, int c)
 {
-
-
 	for (int i = 0; i < 4; i++)
 	{
 		int nowX, nowY;

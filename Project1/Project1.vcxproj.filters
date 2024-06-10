@@ -468,9 +468,6 @@
     <ClCompile Include="Backtracking_15683.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Simulation_16236.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="DP_1149.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -504,7 +501,19 @@
     <ClCompile Include="PriorityQueue_15903.cpp">
       <Filter>소스 파일\PriorityQueue</Filter>
     </ClCompile>
+    <ClCompile Include="Simulation_3190.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="Simulation_14503.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_16236.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_10813.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_1966.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
