@@ -486,9 +486,6 @@
     <ClCompile Include="DP_12865.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Gridy_2457.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Simulation_1475.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
@@ -507,13 +504,19 @@
     <ClCompile Include="Simulation_14503.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
-    <ClCompile Include="Simulation_16236.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Simulation_10813.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
+    <ClCompile Include="Greedy_2457.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
     <ClCompile Include="Simulation_1966.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_16236.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_11866.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
