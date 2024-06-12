@@ -1,5 +1,6 @@
-#include <iostream>
+// Brute Force > 나누기(1075번)
 
+#include <iostream>
 using namespace std;
 
 int main() {
