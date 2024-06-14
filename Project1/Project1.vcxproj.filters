@@ -520,6 +520,9 @@
       <Filter>소스 파일\BruteForce</Filter>
     </ClCompile>
     <ClCompile Include="Simulation_18111.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_2161.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
