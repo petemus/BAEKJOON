@@ -3,6 +3,7 @@
 //
 
 // 1) Backtracking  -> 시간 초과
+// 2) DP -> 아직 이해가 안됨
 
 #include <iostream>
 #include <vector>

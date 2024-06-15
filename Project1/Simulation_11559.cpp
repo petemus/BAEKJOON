@@ -1,4 +1,4 @@
-// Simulation > 5.Puyo Puyo(11559번)
+// Simulation > Puyo Puyo(11559번)
 // BFS 문제인듯
 // 터질때마다 필드의 위치가 변경되는데 이게 핵심인듯
 

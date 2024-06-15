@@ -414,7 +414,7 @@
     <ClCompile Include="Sort2_14.cpp">
       <Filter>소스 파일\Sort2</Filter>
     </ClCompile>
-    <ClCompile Include="Simulation_5.cpp">
+    <ClCompile Include="Simulation_11559.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
     <ClCompile Include="Simulation_6.cpp">
@@ -428,9 +428,6 @@
     </ClCompile>
     <ClCompile Include="Simulation_8.cpp">
       <Filter>소스 파일\Simulation</Filter>
-    </ClCompile>
-    <ClCompile Include="DP_1.cpp">
-      <Filter>소스 파일\DP</Filter>
     </ClCompile>
     <ClCompile Include="DP_9461.cpp">
       <Filter>소스 파일\DP</Filter>
@@ -523,6 +520,12 @@
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
     <ClCompile Include="Simulation_2161.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_1463.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation_1913.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

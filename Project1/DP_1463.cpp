@@ -1,4 +1,4 @@
-// DP > 1.1로 만들기(1463번)
+// DP > 1로 만들기(1463번)
 // 3으로 나누는 연산과 2로 나누는 연산중 겹치는 부분(overlapping problem)이 발생한다
 // 6으로 나누어 떨어지는 부분이 겹침 -> DP
 
@@ -11,5 +11,13 @@ using namespace std;
 
 int main() {
 
-	cout << "메롱";
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+	int n;
+	
+	cin >> n;
+
+
 }
