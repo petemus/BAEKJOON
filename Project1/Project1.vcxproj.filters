@@ -526,6 +526,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="simulation_1913.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_1969.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
