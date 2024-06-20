@@ -489,9 +489,6 @@
     <ClCompile Include="PriorityQueue_1715.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PriorityQueue_11286.cpp">
-      <Filter>소스 파일\PriorityQueue</Filter>
-    </ClCompile>
     <ClCompile Include="PriorityQueue_15903.cpp">
       <Filter>소스 파일\PriorityQueue</Filter>
     </ClCompile>
@@ -529,6 +526,15 @@
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
     <ClCompile Include="Simulation_1969.cpp">
+      <Filter>소스 파일\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue_1655.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue_11286.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation_2615.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
