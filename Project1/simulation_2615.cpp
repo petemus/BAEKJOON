@@ -1,7 +1,7 @@
 // simulation, brute Force > 오목(2615번)
 // 풀이 시간  : 3~40m
 // 현재 인덱스 이후의 방향으로만 확인하면 됨
-// 6개 넘어가면 실패임 무조건 5개임을 확인해야함 
+// 6개 넘어가면 실패임 무조건 5개임을 확인해야함 -> 6목 확인 필요 
 
 #include <iostream>
 using namespace std;
