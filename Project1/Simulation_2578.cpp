@@ -1,6 +1,5 @@
 // Simulation > 빙고 (2578번)
 // 풀이 시간 : 20m
-//  Brute Force
 
 #include <iostream>
 using namespace std;
