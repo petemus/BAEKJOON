@@ -42,7 +42,7 @@ int main()
 	for (int i = 0; i < gb.size(); i++)
 	{
 		int len = 0;
-		int nowVal = 0;
+		int nowVal = 0; // 원하는 용량이 0이 있을 수도 있음 조심 
 		for (int j = 0; j < n; j++)
 		{
 			if (arr[j] == gb[i]) continue;
