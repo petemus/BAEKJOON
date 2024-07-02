@@ -546,7 +546,10 @@
     <ClCompile Include="BruteForce_2563.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="BruteForce_2304.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce_14718.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
