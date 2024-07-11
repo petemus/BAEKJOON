@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\PriorityQueue">
       <UniqueIdentifier>{42c52074-475c-4464-acbd-c931c5b6734b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\EliceCodingTest">
+      <UniqueIdentifier>{a8e6a086-e728-4c67-b3d3-6e2be5c8e6db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -553,7 +556,24 @@
       <Filter>소스 파일\BruteForce</Filter>
     </ClCompile>
     <ClCompile Include="Stack_2504.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="EliceCodingTest_day1.cpp">
+      <Filter>소스 파일\EliceCodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="EliceCodingTest_day2.cpp">
+      <Filter>소스 파일\EliceCodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="EliceCodingTest_day3.cpp">
+      <Filter>소스 파일\EliceCodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="HyeriTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

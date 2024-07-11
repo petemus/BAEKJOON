@@ -21,6 +21,7 @@ int main()
 	int n, k;
 	cin >> n >> k;
 	
+	// 정렬 불필요여서 vector로 또 나눌 필요 없음 
 	vector<int> pow;
 	vector<int> speed;
 	vector<int> intel;
@@ -32,7 +33,7 @@ int main()
 		pow.push_back(p); speed.push_back(s); intel.push_back(k);
 		enemy[i][0] = p; enemy[i][1] = s; enemy[i][2] = k;
 	}
-	// 오름차순으로 정렬
+	// 오름차순으로 정렬 -> 어차피 전체 탐색이여서 정렬 불필요 ㅎㅋ
 	sort(pow.begin(), pow.end());
 	sort(speed.begin(), speed.end());
 	sort(intel.begin(), intel.end());

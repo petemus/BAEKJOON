@@ -44,4 +44,5 @@ int main()
 	}
 
 	cout << point;
+	
 }
