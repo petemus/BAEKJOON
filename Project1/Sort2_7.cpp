@@ -15,7 +15,7 @@ using namespace std;
 vector<long long> card;
 vector<long long> sorted;
 
-void conquer(int left, int mid, int right) {
+void Merge(int left, int mid, int right) {
 
 
 	int i = left; // 왼쪽 배열을 가리키는 index
@@ -51,13 +51,13 @@ void conquer(int left, int mid, int right) {
 
 }
 
-void divide(int left, int right) {
+void MergeSort(int left, int right) {
 
 	if (left < right) {
 		int mid = (left + right) / 2;
-		divide(left, mid);
-		divide(mid + 1, right);
-		conquer(left, mid, right);
+		MergeSort(left, mid);
+		MergeSort(mid + 1, right);
+		Merge(left, mid, right);
 	}
 
 }
@@ -82,7 +82,7 @@ int main() {
 	//정렬
 	//sort(card.begin(), card.end());
 	// merge sort
-	divide(0, n - 1);
+	MergeSort(0, n - 1);
 
 	// 가장 많은 수 계산
 	long long maxNum = card[0];

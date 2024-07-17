@@ -6,10 +6,12 @@ using namespace std;
 int n, m;
 int iceberg[300][300];
 bool isVisited[300][300] = { 0, };
+// direct ¹è¿­ 
 int dirX[] = { 0, 0, 1, -1 };
 int dirY[] = { 1, -1, 0, 0};
 
 void DFS(int x, int y) {
+
 	isVisited[x][y] = 1;
 	int tmpX, tmpY;
 	for (int i = 0; i < 4; i++) {
@@ -31,7 +33,7 @@ void BFS(int i, int j) {
 	pair<int, int> tmp;
 	int tmpX, tmpY;
 	while (!q.empty()) {
-		tmp = q.front();
+		tmp = q.front(); 
 		for (int i = 0; i < 4; i++) {
 			tmpX = tmp.first + dirX[i];
 			tmpY = tmp.second + dirY[i];
