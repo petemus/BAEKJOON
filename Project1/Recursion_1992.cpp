@@ -1,4 +1,4 @@
-// Recursion > 7.쿼드트리(1992번)
+// Recursion > 쿼드트리(1992번)
 
 // 5, 6번이랑 비슷
 
@@ -15,7 +15,7 @@ void QuardTree(int n, int sY, int sX) {
 		return;
 	}
 
-	// 검사
+	// n * n 사각형이 전부 같은 수인지 검사 
 	int tmp = arr[sY][sX];
 	bool isSame = true;
 	for (int i = sY; i < sY + n; i++) {
@@ -49,7 +49,6 @@ int main() {
 	int n;
 	cin >> n;
 
-	// 어쩔때는 그냥 int형으로 받아도 되고 어쩔 때는 안되고 뭐징...
 	string tmp;
 	for (int i = 0; i < n; i++) {
 		cin >> tmp;

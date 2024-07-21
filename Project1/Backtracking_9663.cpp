@@ -1,4 +1,4 @@
-// Backtracking > 5.N-Queen(9663¹ø)
+// Backtracking > N-Queen(9663¹ø)
 
 #include <iostream>
 using namespace std;

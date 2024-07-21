@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\EliceCodingTest">
       <UniqueIdentifier>{a8e6a086-e728-4c67-b3d3-6e2be5c8e6db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\GraphSearch">
+      <UniqueIdentifier>{24ba29a2-523a-4921-b98a-a9566d4c8df3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -249,7 +252,7 @@
     <ClCompile Include="BFS_6.cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
-    <ClCompile Include="BFS_7.cpp">
+    <ClCompile Include="BFS_2667.cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
     <ClCompile Include="BFS_8.cpp">
@@ -303,7 +306,7 @@
     <ClCompile Include="Recursion_6.cpp">
       <Filter>소스 파일\Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="Recursion_7.cpp">
+    <ClCompile Include="Recursion_1992.cpp">
       <Filter>소스 파일\Recursion</Filter>
     </ClCompile>
     <ClCompile Include="Recursion_8.cpp">
@@ -360,7 +363,7 @@
     <ClCompile Include="Backtracking_4.cpp">
       <Filter>소스 파일\Backtracking</Filter>
     </ClCompile>
-    <ClCompile Include="Backtracking_5.cpp">
+    <ClCompile Include="Backtracking_9663.cpp">
       <Filter>소스 파일\Backtracking</Filter>
     </ClCompile>
     <ClCompile Include="Backtracking_6.cpp">
@@ -589,6 +592,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Greedy_2170.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSearch_2606.cpp">
+      <Filter>소스 파일\GraphSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_2178.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSearch_16593.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
