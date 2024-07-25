@@ -588,9 +588,6 @@
     <ClCompile Include="Recursion_17829.cpp">
       <Filter>소스 파일\Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Greedy_2170.cpp">
       <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
@@ -601,6 +598,9 @@
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
     <ClCompile Include="GraphSearch_16593.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSerach_2206.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
