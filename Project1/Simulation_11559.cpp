@@ -1,8 +1,7 @@
-// Simulation > Puyo Puyo(11559번)
-// BFS 문제인듯
+// Simulation, BFS > Puyo Puyo(11559번)
 // 터질때마다 필드의 위치가 변경되는데 이게 핵심인듯
 
-// * 터지는 개수를 각각 세서 틀렸음
+//  터지는 개수를 각각 세서 틀렸음
 
 #include <iostream>
 #include <queue>
@@ -72,8 +71,8 @@ void arrange() {
 	// 문자의 밑의 요소가 .이면 .이 아닐때까지 이동
 	for (int i = 11; i >= 0; i--) {
 		for (int j = 0; j < 6; j++) {
+			// 뿌요이면
 			if (field[i][j] != '.') {
-				// 뿌요이면
 				int k = i;
 				while (k < 12) {
 					if (field[k + 1][j] == '.') {
@@ -103,6 +102,7 @@ int main() {
 
 	// 턴 반복
 	bool isBombed = false;
+	// 연쇄 카운트 
 	int bombCnt = 0;
 
 	//arrange();
@@ -125,7 +125,7 @@ int main() {
 		// 폭탄이 터지지 않으면 종료
 		if (!isBombed) break;
 		else bombCnt++;
-		// 필드 정리
+		// 필드 정리 -> 중력 작용 
 		arrange();
 		// 변수 초기화
 		isBombed = false;
