@@ -1,11 +1,6 @@
 // Graph Search > 바이러스 (2606번)
 // 풀이 시간
 
-// check point
-// 1) 트리가 아닌 일반 그래프 구조에서는 어떻게 탐색을 진행해야하나 -> 간선이 이어져 있는 것을 나타내는 배열 만듬
-// + 이 배열의 특징 
-
-
 #include <iostream>
 #include <queue>
 using namespace std;
