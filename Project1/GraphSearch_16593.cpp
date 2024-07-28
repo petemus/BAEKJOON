@@ -1,5 +1,5 @@
 // Graph Search > A -> B (16953번)
-// 풀이 시간 :\
+// 풀이 시간 :
 // long long으로 해줘야함 => int 형과 연산을 한 결과값이 int형으로 나오기 때문에 값이 잘못나옴 => 오류 
 
 #include <iostream>
