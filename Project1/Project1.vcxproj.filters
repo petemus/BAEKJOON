@@ -357,7 +357,7 @@
     <ClCompile Include="Backtracking_18.cpp">
       <Filter>소스 파일\Backtracking</Filter>
     </ClCompile>
-    <ClCompile Include="Backtracking_3.cpp">
+    <ClCompile Include="Backtracking_1759.cpp">
       <Filter>소스 파일\Backtracking</Filter>
     </ClCompile>
     <ClCompile Include="Backtracking_4.cpp">
@@ -604,6 +604,15 @@
       <Filter>소스 파일\GraphSearch</Filter>
     </ClCompile>
     <ClCompile Include="Backtracking_14889.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_15686.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_2239.cpp">
+      <Filter>소스 파일\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_1941.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

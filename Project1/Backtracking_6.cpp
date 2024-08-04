@@ -11,7 +11,7 @@ bool isVisited[5][5] = { 0, };
 int path[7][2];
 int dirR[] = { 0, 0, 1, -1 };
 int dirC[] = { 1, -1, 0, 0 };
-int princess7 = 0;
+int p7 = 0;
 
 void Backtracking(int rindex, int cindex, int dept, int sCnt) {
 
@@ -23,7 +23,7 @@ void Backtracking(int rindex, int cindex, int dept, int sCnt) {
 	//종료 조건
 	if (dept == 7) {
 		cout << "성공\n";
-		princess7++;
+		p7++;
 		return;
 	}
 
@@ -103,7 +103,7 @@ int main() {
 		}
 	}
 
-	cout << princess7;
+	cout << p7;
 
 	//for (int i = 0; i < 5; i++) {
 	//	for (int j = 0; j < 5; j++) {
