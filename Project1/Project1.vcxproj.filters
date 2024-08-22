@@ -618,6 +618,12 @@
     <ClCompile Include="BruteForce_4673.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Recursion_10994.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_15684.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

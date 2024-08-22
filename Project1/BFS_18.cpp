@@ -12,13 +12,13 @@ int dirY[] = { 1, -1, 0, 0};
 
 void DFS(int x, int y) {
 
-	isVisited[x][y] = 1;
 	int tmpX, tmpY;
 	for (int i = 0; i < 4; i++) {
 		tmpX = x + dirX[i];
 		tmpY = y + dirY[i];
 		if (tmpX < 0 || tmpX >= n || tmpY < 0 || tmpY >= m) continue;
 		if (!isVisited[tmpX][tmpY] && iceberg[tmpX][tmpY] > 0) {
+			isVisited[x][y] = 1;
 			DFS(tmpX, tmpY);
 		}
 	}
