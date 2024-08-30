@@ -627,6 +627,9 @@
     <ClCompile Include="GraphSearch_1260.cpp">
       <Filter>소스 파일\GraphSearch</Filter>
     </ClCompile>
+    <ClCompile Include="BruteForce_14400.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
