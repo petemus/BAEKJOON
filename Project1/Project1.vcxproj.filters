@@ -627,8 +627,8 @@
     <ClCompile Include="GraphSearch_1260.cpp">
       <Filter>소스 파일\GraphSearch</Filter>
     </ClCompile>
-    <ClCompile Include="BruteForce_14400.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Dijkstra_1238.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

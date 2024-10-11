@@ -7,7 +7,7 @@
 using namespace std;
 
 int n, m;
-int dis[1000][1000];
+int disGo[1000][1000];
 
 int main()
 {
