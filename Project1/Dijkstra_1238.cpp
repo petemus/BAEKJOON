@@ -6,52 +6,49 @@
 #include <queue>
 using namespace std;
 
-// Time의 최대값이 100이므로 
-#define INF 101;
+// Time의 최대값이 100인데 얘보다 클 수 있음...
+#define INF 2147483647
 
 // n :마을 수(사람수), m : 간선 수(단방향), T(비용), X 도착지점
 int n, m, x;
 
-
 // 마을 그래프
-int graph[1001][1001] = {0, };
+// 2차원 배열을 vector로 만들어도 시간 훨씬 단축 
+// vector로 만들기 -> first : 비용, second : idx
+//int graph[1001][1001] = {0,};
+vector<pair<int,int>> graph[1001];
 
-int minDis[1001] = {0,};
-
-
+// 마을별 최단경로
+int minDis[1001] = { 0, };
 
 
 // 다익스트라
-void Dijkstra(int start, int end)
+// start에서 end까지의 최단 거리 반환 
+int Dijkstra(int start, int end)
 {
 	// 우선순위 큐
 	// first : 비용, second : 연결 노드
-	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int,int>>> pq;
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
 	// 방문 체크 배열 -> 각 마을 탐색할때 마다 다르게 사용해야함
 	bool isVisitied[1001] = { false, };
 
 	// distance 배열
 	// start에서 index로 갈때 최단 비용
-	int dis[1001] = {0, };
+	int dis[1001] = { 0, };
+	fill(dis, dis + n + 1, INF);
 
 
 	// 첫번째 요소 넣어주기 
-	isVisitied[start] = true;
-	for (int i = 1; i <= n; i++)
-	{
-		if(start == i) continue;
+	pq.push({0, start});
+	dis[start] = 0;
 
-		dis[i] = graph[start][i];
-		pq.push({ dis[i], i});
-	}
 
 	// while문 반복  
 	while (!pq.empty())
 	{
-		// 방문한 곳이면 패스
 		// 가장 작은 요소 꺼내오고 방문
-		pair<int,int> v = pq.top(); 
+		pair<int, int> v = pq.top();
 		pq.pop();
 		int vCost = v.first;
 		int vIdx = v.second;
@@ -61,26 +58,31 @@ void Dijkstra(int start, int end)
 
 		isVisitied[vIdx] = true;
 
-
 		// distance 업데이트 
-		for (int i = 1; i <= n; i++)
+		for (pair<int, int> next : graph[vIdx])
 		{
-			// 이어져 있지 않으면 pass
-			if(graph[vIdx][i] >= 101 && graph[vIdx][i] == 0) continue;
-			
-			// 만약 더 작은 경로 찾으면 업뎃
-			if (vCost + graph[vIdx][i] < dis[vIdx])
+			int nIdx = next.second; int nCost = next.first;
+			if (vCost + nCost < dis[nIdx])
 			{
-				dis[vIdx] = vCost + graph[vIdx][i];
-				pq.push({ dis[vIdx], i});
+				dis[nIdx] = nCost + vCost;
+				pq.push({dis[nIdx], nIdx});
 			}
 		}
+		//for (int i = 1; i <= n; i++)
+		//{
+		//	// 이어져 있지 않고 이미 방문했으면 pass
+		//	if (graph[vIdx][i] >= INF || vIdx == i) continue;
+		//	// 만약 더 작은 경로 찾으면 업뎃
+		//	if (vCost + graph[vIdx][i] < dis[i])
+		//	{
+		//		dis[i] = vCost + graph[vIdx][i];
+		//		pq.push({ dis[i], i });
+		//	}
+		//}
 	}
 
-
-	// 최소값 저장
-	minDis[start] = dis[x];
-
+	// 최소값 반환 
+	return dis[end];
 }
 
 
@@ -98,39 +100,34 @@ int main()
 		int s, e, c;
 		cin >> s >> e >> c;
 		// 단방향이기때문에 한번만 넣어줌
-		graph[s][e] = c;
+		graph[s].push_back({c, e});
 	}
 
 	// graph 나머지 값 INF로 모두 초기화
-	// 나중에 stl에서 제공하는 함수 사용 하자.
-	//fill_n(&graph[0][0], &graph[1001][1001], 101);
-	for (int i = 1; i <= n; i++)
-	{
-		for (int j = 1; j <= n; j++)
-		{	
-			if(i == j) continue;
-			if(graph[i][j] == 0) graph[i][j] = INF;
-		}
-	}
-
+	// 그냥 vector에 {비용, idx} 형식으로 넣어주면 무한으로 초기화 안해도 됨
+	//for (int i = 1; i <= n; i++)
+	//{
+	//	for (int j = 1; j <= n; j++)
+	//	{
+	//		if (i == j) continue;
+	//		if (graph[i][j] == 0) graph[i][j] = INF;
+	//	}
+	//}
 
 
 	// 다익스트라
+	int max = 0;
 	for (int i = 1; i <= n; i++)
 	{
-		Dijkstra(i, x);
-		Dijkstra(x, i);
+		if (i == x) continue;
+
+		int goback = Dijkstra(i, x) + Dijkstra(x, i);
+
+		if(goback >= max) max = goback;
+
 	}
 
+	cout << max;
 
-	// 다익스트라 함수가 다 끝나면 가장 dis배열의 x열의 비용 값이 최소인 놈을 출력
-	// 100 * 10000 * 2
-	int min = 2000000;
-	for (int i = 1; i < n; i++)
-	{
-		if(minDis[i] <= min) min = minDis[i];
-	}
-	// 출력
-	cout << min;
 
 }
