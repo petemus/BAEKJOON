@@ -525,9 +525,6 @@
     <ClCompile Include="Simulation_2161.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
-    <ClCompile Include="DP_1463.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="simulation_1913.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
@@ -629,6 +626,12 @@
     </ClCompile>
     <ClCompile Include="Dijkstra_1238.cpp">
       <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_1463.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_11726.cpp">
+      <Filter>소스 파일\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
