@@ -642,6 +642,12 @@
     <ClCompile Include="DP_1520.cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
+    <ClCompile Include="DP_2193.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_11055.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
