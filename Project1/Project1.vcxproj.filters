@@ -73,6 +73,9 @@
     <Filter Include="소스 파일\GraphSearch">
       <UniqueIdentifier>{24ba29a2-523a-4921-b98a-a9566d4c8df3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\NEXON">
+      <UniqueIdentifier>{3afbf29a-2aa3-4088-b0e8-0d77ef1a38a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -486,9 +489,6 @@
     <ClCompile Include="DP_1932.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DP_12865.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Simulation_1475.cpp">
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
@@ -656,6 +656,21 @@
     </ClCompile>
     <ClCompile Include="DP_2775.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_12865.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem1.cpp">
+      <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem2.cpp">
+      <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem3.cpp">
+      <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem4.cpp">
+      <Filter>소스 파일\NEXON</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
