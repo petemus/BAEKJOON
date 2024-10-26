@@ -1,5 +1,6 @@
 // 최대 점수 뽑기 문제
 // 쉬운 DP 문제
+// #DP , But 일반 구현으로도 풀 수 있음
 
 #include <iostream>
 #include <vector>
