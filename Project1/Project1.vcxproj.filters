@@ -76,6 +76,9 @@
     <Filter Include="소스 파일\NEXON">
       <UniqueIdentifier>{3afbf29a-2aa3-4088-b0e8-0d77ef1a38a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BinarySearch">
+      <UniqueIdentifier>{6b4d0147-389e-4dfc-9364-ab8a6e3289f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -671,6 +674,33 @@
     </ClCompile>
     <ClCompile Include="Problem4.cpp">
       <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch_12015.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
