@@ -79,6 +79,12 @@
     <Filter Include="소스 파일\BinarySearch">
       <UniqueIdentifier>{6b4d0147-389e-4dfc-9364-ab8a6e3289f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Nector">
+      <UniqueIdentifier>{c00a0c37-6167-48ab-95b0-40afc3084114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TwoPointer">
+      <UniqueIdentifier>{221030e2-b740-4206-ba49-ab5d7faecb43}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -675,32 +681,35 @@
     <ClCompile Include="Problem4.cpp">
       <Filter>소스 파일\NEXON</Filter>
     </ClCompile>
-    <ClCompile Include="Problem5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Problem6.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Solve6.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BinarySearch_12015.cpp">
       <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve1.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve2.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve3.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve4.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve5.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve6.cpp">
+      <Filter>소스 파일\Nector</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem6.cpp">
+      <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem5.cpp">
+      <Filter>소스 파일\NEXON</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPointer_1806.cpp">
+      <Filter>소스 파일\TwoPointer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
