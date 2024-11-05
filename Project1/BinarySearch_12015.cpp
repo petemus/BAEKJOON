@@ -34,9 +34,9 @@ int main()
 	{
 		// vector<int>::iterator 사용 or auto 사용
 		auto neighbor = lower_bound(lis.begin(), lis.end(), arr[i]);
-		// 찾지 못하면 push
 		if (neighbor == lis.end())
 		{
+			// 찾지 못하면 push
 			lis.push_back(arr[i]);
 		}
 		else
