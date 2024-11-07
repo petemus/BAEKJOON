@@ -47,7 +47,7 @@ int main()
 			// 이때 최소값인지 확인
 			if(dis < min) min = dis;
 
-			// !!! 이게 중요 
+			// @@@ !!! 이게 중요 
 			// 근데 만약 start가 증가했을때 end와 같으면 end를 증가 
 			if(end - start == 1) ++end;
 			else ++start;
