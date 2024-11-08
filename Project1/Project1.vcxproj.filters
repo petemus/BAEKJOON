@@ -714,6 +714,9 @@
     <ClCompile Include="TwoPointer_2230.cpp">
       <Filter>소스 파일\TwoPointer</Filter>
     </ClCompile>
+    <ClCompile Include="TwoPointer_2559.cpp">
+      <Filter>소스 파일\TwoPointer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
