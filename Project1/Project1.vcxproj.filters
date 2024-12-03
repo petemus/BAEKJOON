@@ -85,6 +85,9 @@
     <Filter Include="소스 파일\TwoPointer">
       <UniqueIdentifier>{221030e2-b740-4206-ba49-ab5d7faecb43}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BitMasking">
+      <UniqueIdentifier>{e6d75ae0-1d40-4c30-a40f-0d3c901eb48b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -722,6 +725,9 @@
     </ClCompile>
     <ClCompile Include="GraphSearch_11724.cpp">
       <Filter>소스 파일\GraphSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMasking_11723.cpp">
+      <Filter>소스 파일\BitMasking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
