@@ -3,6 +3,12 @@
 // 집합 안에 포함되어 있는 숫자의 유무를 비트로 표현
 
 
+// & : AND 연산
+// | : OR 연산
+// ~ : Not 연산
+// ^ : NOR 연산 (다르면 true / 같으면 false) 
+
+
 #include <iostream>
 using namespace std;
 
