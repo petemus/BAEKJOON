@@ -735,6 +735,9 @@
     <ClCompile Include="Backtracking_10971.cpp">
       <Filter>소스 파일\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="BitMasking_2961.cpp">
+      <Filter>소스 파일\BitMasking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
