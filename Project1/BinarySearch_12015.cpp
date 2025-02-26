@@ -33,6 +33,7 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 		// vector<int>::iterator 사용 or auto 사용
+		//  Lower_bound : value 이상인 첫 번째 원소의 위치를 가리키는 이터레이터를 반환.
 		auto neighbor = lower_bound(lis.begin(), lis.end(), arr[i]);
 		if (neighbor == lis.end())
 		{
