@@ -91,6 +91,9 @@
     <Filter Include="소스 파일\Hash">
       <UniqueIdentifier>{079cd173-3fc1-47a0-a0fc-8b9006d4de48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{979be9e9-6819-4708-ac66-6ce157d6c030}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -734,6 +737,18 @@
     </ClCompile>
     <ClCompile Include="Hash_5568.cpp">
       <Filter>소스 파일\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking_10971.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMasking_1094.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMasking_2961.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="String_1316.cpp">
+      <Filter>소스 파일\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
