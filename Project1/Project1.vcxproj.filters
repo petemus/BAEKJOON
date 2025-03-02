@@ -753,6 +753,9 @@
     <ClCompile Include="String_1120.cpp">
       <Filter>소스 파일\String</Filter>
     </ClCompile>
+    <ClCompile Include="Greedy_1138.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
