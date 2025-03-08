@@ -10,7 +10,7 @@ bool isVisited[300][300] = { 0, };
 int dirX[] = { 0, 0, 1, -1 };
 int dirY[] = { 1, -1, 0, 0};
 
-void DFS(int x, int y) {
+void Backtracking(int x, int y) {
 
 	int tmpX, tmpY;
 	for (int i = 0; i < 4; i++) {
@@ -19,7 +19,7 @@ void DFS(int x, int y) {
 		if (tmpX < 0 || tmpX >= n || tmpY < 0 || tmpY >= m) continue;
 		if (!isVisited[tmpX][tmpY] && iceberg[tmpX][tmpY] > 0) {
 			isVisited[x][y] = 1;
-			DFS(tmpX, tmpY);
+			Backtracking(tmpX, tmpY);
 		}
 	}
 }
@@ -74,7 +74,7 @@ int main() {
 			for (int j = 0; j < m; j++) {
 				if (!isVisited[i][j] && iceberg[i][j] > 0) {
 					//BFS(i, j);
-					DFS(i, j);
+					Backtracking(i, j);
 					area++;
 				}
 			}

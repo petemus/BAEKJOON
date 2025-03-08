@@ -759,7 +759,10 @@
     <ClCompile Include="Greedy_10819.cpp">
       <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="_14940.cpp">
+    <ClCompile Include="GraphSearch_14940.cpp">
+      <Filter>소스 파일\GraphSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation_14500.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
