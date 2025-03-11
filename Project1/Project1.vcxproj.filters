@@ -766,6 +766,9 @@
       <Filter>소스 파일\Simulation</Filter>
     </ClCompile>
     <ClCompile Include="String_17413.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="_1904.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
