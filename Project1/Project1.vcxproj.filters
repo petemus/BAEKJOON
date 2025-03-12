@@ -768,8 +768,11 @@
     <ClCompile Include="String_17413.cpp">
       <Filter>소스 파일\String</Filter>
     </ClCompile>
-    <ClCompile Include="_1904.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DP_1904.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_9465.cpp">
+      <Filter>소스 파일\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
