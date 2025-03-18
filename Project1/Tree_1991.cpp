@@ -11,7 +11,7 @@
 using namespace std;
 
 // 알파벳 26자 
-// char로 저장해도 됨 
+// @ char로 저장해서 처리하는 게 더 간단 -> index만 숫자로 처리 
 pair<int, int> node[26];
 
 void Preorder(int i)
