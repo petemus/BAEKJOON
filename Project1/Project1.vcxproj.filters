@@ -94,6 +94,9 @@
     <Filter Include="소스 파일\String">
       <UniqueIdentifier>{979be9e9-6819-4708-ac66-6ce157d6c030}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{21736c49-f3aa-4b42-954a-08f4dbed1f74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -780,8 +783,11 @@
     <ClCompile Include="BrtueForce_2501.cpp">
       <Filter>소스 파일\BruteForce</Filter>
     </ClCompile>
-    <ClCompile Include="_11048.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DP_11048.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree_1991.cpp">
+      <Filter>소스 파일\Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
