@@ -5,6 +5,9 @@
 // ! 전위 순회로 이진 탐색 트리 만들 수 있을 듯
 // => bst 구조를 만드는 게 핵심인듯
 
+// sol1> bst를 직접 만들어서 후위 순회
+// sol2> 전위 순회 결과값을 재귀로 어쩌고 해서 후위 순회
+
 #include <iostream>
 using namespace std;
 
