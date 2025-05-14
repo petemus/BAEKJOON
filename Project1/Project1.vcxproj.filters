@@ -97,6 +97,9 @@
     <Filter Include="소스 파일\Tree">
       <UniqueIdentifier>{21736c49-f3aa-4b42-954a-08f4dbed1f74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\PrefixSum">
+      <UniqueIdentifier>{a25777c7-be2b-424a-a9cd-75d1b4e7f8fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForce_1.cpp">
@@ -815,6 +818,12 @@
     </ClCompile>
     <ClCompile Include="DP_2156.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="nexonTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefixSum_11660.cpp">
+      <Filter>소스 파일\PrefixSum</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@
 
 
 #include <iostream>
-#include <cmath>
+#include <algorithm> // max(), min(), max({}) 
 using namespace std;
 
 // 와인값 저장 
