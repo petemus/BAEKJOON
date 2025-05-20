@@ -1,4 +1,4 @@
-// 누적합(Prefix Sum) > 구간 합 구하기 5
+// 누적합(Prefix Sum), DP! > 구간 합 구하기 5
 // 풀이 시간 : 40~50m 
 // !!! 시간, edge case 신경써서
 
@@ -36,19 +36,9 @@ int main()
 			cin >> arr[i][j];
 
 			// 누적합 저장 
-			// 1. 완탐
-			//int sum = 0;
-			//for (int l = 0; l <= i; ++l)
-			//{
-			//	for (int k = 0; k <= j; ++k)
-			//	{
-			//		sum += arr[l][k];
-			//	}
-			//}
-			//prefix[i][j] = sum;
-			
 			// 2. A + B - C + arr[i][j]
 			int a = 0, b = 0, c = 0;
+			// @@@@사실상 i = 0, j = 0일때는 모두 0이여서 if문 안써도 됨 ㅜ
 			if(j > 1)
 				a = prefix[i][j - 1];
 			if(i > 1)

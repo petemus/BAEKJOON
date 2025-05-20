@@ -825,6 +825,9 @@
     <ClCompile Include="PrefixSum_11660.cpp">
       <Filter>소스 파일\PrefixSum</Filter>
     </ClCompile>
+    <ClCompile Include="PrefixSum_10986.cpp">
+      <Filter>소스 파일\PrefixSum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
