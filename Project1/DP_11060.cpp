@@ -7,6 +7,10 @@
 
 // 예외!!) 도달하지 못했는데 점프 판단을 할 수 있음....
 
+// 풀이 2) BFS(최소 경로이므로 적절)
+// 최소 경로를 찾는거므로 가능
+// maximun 100 * 1000 = 10만이므로 가능할듯
+
 
 #include <iostream>	
 #include <algorithm>	// min, max 

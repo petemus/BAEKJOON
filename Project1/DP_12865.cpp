@@ -1,4 +1,4 @@
-// DP > 평범한 배낭(12865번) -> 실패 
+// DP > 평범한 배낭(12865번)
 // 풀이 시간 :
 //
 
@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 
@@ -17,54 +18,61 @@ int main()
 	cout.tie(NULL);
 
 	int n, k;
-	int object[100][2];
 
 	// Input
 	cin >> n >> k;
-	for (int i = 0; i < n; i++)
+
+	vector<int> weights(n + 2, 0);
+	vector<int> values(n + 2, 0);
+
+	// memorization
+	// weight에 따른 최대 value 저장
+	vector<int> memo(100002, -1);
+	vector<vector<int>> dp(n + 2, vector<int>(100002, 0));
+
+	for (int i = 1; i <= n; i++)
 	{
-		cin >> object[i][0] >> object[i][1];
+		cin >> weights[i] >> values[i];
 	}
 
+
 	// DP
+	//memo[0] = 0;
+	//for (int i = 1; i <= k; ++i)
+	//{
+	//	// n 만큼 반복 => 이렇게 하면 중복해서 선택될 수 있음...
+	//	for (int j = 0; j < n; ++j)
+	//	{	
+	//		// 겹치지 않게 절반보다 커야 함 
+	//		if (weights[j] <= i && weights[j] > (i / 2))
+	//		{
+	//			// weight가 현재 memo 무게보다 크면 이전 memo에 값과 더해줌
+	//			int prevW = i - weights[j];
+	//			if (memo[prevW] >= 0)
+	//			{
+	//				// 그 이전 무게의 값이 있어야 비교해서 더해줌 
+	//				memo[i] = max(memo[prevW] + values[j], memo[i]);
+	//			}
+	//		}
+	//	}
+	//}
+
+
+	for (int i = 1; i <= n; ++i)
+	{
+		for (int j = 1; j <= k; ++j)
+		{
+			if (j >= weights[i])
+			{
+				dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weights[i]] + values[i]);
+			}
+			else dp[i][j] = dp[i -1][j];
+		}
+	}
+
+	cout << dp[n][k];
 
 
 
-	// Output
-
-
-	// Backtracking
-	//Backtracking(0, 0, 0);
-	//cout << maxValue;
 }
 
-// ------------ Backtracking
-
-//int n, k;
-//int object[100][2];		//  물건 w, v 저장
-//// 물건 가지고 있는지
-//bool isHave[100] = { false, };
-//int maxValue = 0;
-//
-//void Backtracking(int thingCnt, int allWeight, int allValue)
-//{
-//	
-//	// object 넣어주기 
-//	for (int i = 0; i < n; i++)
-//	{
-//		// 가지고 있지 않으면 백트랙킹
-//		if (!isHave[i] && (allWeight + object[i][0]) <= k)
-//		{
-//			isHave[i] = true;
-//			Backtracking(thingCnt + 1, allWeight + object[i][0], allValue + object[i][1]);
-//			isHave[i] = false;
-//		}
-//	}
-//
-//	// 종료 조건
-//	// > 더이상 넣을 object 가 없을 때
-//	// 최대 가치합인지 확인
-//	if (allValue > maxValue) maxValue = allValue;
-//	return;
-//
-//}
